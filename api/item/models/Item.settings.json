@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "items",
+  "info": {
+    "name": "item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "emailTo": {
+      "type": "string"
+    }
+  }
+}
